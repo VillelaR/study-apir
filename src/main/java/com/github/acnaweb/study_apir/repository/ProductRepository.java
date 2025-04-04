@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.github.acnaweb.study_apir.model.Product;
 
 @Repository
-public interface ProductRepository 
-        extends JpaRepository<Product, Long> {
+public interface ProductRepository
+                extends JpaRepository<Product, Long> {
 }
